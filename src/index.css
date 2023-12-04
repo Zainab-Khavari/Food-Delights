@@ -1,0 +1,111 @@
+/* index.css */
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+/* Header styles */
+header {
+  background-color: #ff6347;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #fff;
+  font-size: 36px;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+p {
+  color: #fff;
+  font-size: 18px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+/* Dish styles */
+#dishes {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.dish {
+  width: 300px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background-color: #fff;
+  transition: transform 0.2s ease-in-out;
+}
+
+.dish:hover {
+  transform: translateY(-5px);
+}
+
+.dish img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.dish h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.dish p {
+  color: #666;
+  font-size: 16px;
+}
+
+/* App.css */
+
+/* Style for the dish container */
+.dish {
+  cursor: pointer;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+/* App.css */
+
+/* Header styles */
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+header p {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+/* Search input styles */
+input[type="text"] {
+  padding: 8px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
